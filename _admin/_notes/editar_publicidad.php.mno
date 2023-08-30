@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Editar_Publicidad" value="name:id;datatype:int,name:imagen;datatype:string,name:titulo;datatype:string,name:subtitulo;datatype:string,name:menu;datatype:string,name:link;datatype:string,name:orden;datatype:int,name:estado;datatype:int" />
+</info>

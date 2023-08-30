@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Consulta_Empresas" value="name:COUNT(*);datatype:int" />
+	<infoitem key="UD_Consulta_Estudintes" value="name:COUNT(*);datatype:int" />
+	<infoitem key="UD_Consulta_Personal" value="name:COUNT(*);datatype:int" />
+	<infoitem key="UD_Consulta_Usuarios" value="name:COUNT(*);datatype:int" />
+</info>

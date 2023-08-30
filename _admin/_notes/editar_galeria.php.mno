@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Editar_Galeria" value="name:id;datatype:int,name:titulo;datatype:string,name:fecha_alta;datatype:date,name:descripcion;datatype:blob" />
+</info>

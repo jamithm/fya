@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_ConsultaFuncion" value="name:nombre;datatype:string" />
+	<infoitem key="UD_ConsultaFuncion1" value="name:nombres;datatype:string" />
+</info>

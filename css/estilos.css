@@ -1,0 +1,205 @@
+.barra{
+	background: #ff3019;
+	background: -moz-linear-gradient(top, #ff3019 0%, #cf0404 100%);
+	background: -webkit-linear-gradient(top, #ff3019 0%,#cf0404 100%);
+	background: linear-gradient(to bottom, #ff3019 0%,#cf0404 100%);
+	clear: both;
+	height: 15px;
+	color: white;
+	font-weight: bold;
+	text-align: right;
+	padding: 6px;
+	border-radius: 4px;
+	max-width: 356px;
+	min-width: 20px;
+}
+
+/* A partir de aqui es solo cosmetico, lo puedes borrar */
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+@charset "iso-8859-1";
+body {
+	margin: 0;
+	padding: 0;
+	color: #000;
+	font-family: 'Dosis', sans-serif;
+	font-size: 16px;
+	background-color: #FFF;
+	background-image: url(../images/fondo.jpg);
+	background-size: 100vw 100vh;
+	background-attachment:fixed;
+}
+
+.logo{
+	height: 80px;
+	width: 300px;
+	margin-top: 10px;
+	margin-left: 30px;
+	float: left;
+}
+.logo1{
+	height: 80px;
+	width: 250px;
+	margin-top: 10px;
+	margin-right: 10px;
+	float:right;
+}
+
+/* ~~ este contenedor de anchura fija rodea a las demás divs ~~ */
+.container {
+	width: 990px;
+	background: #FFF;
+	margin: 0 auto; /* el valor automático de los lados, unido a la anchura, centra el diseño */
+}
+
+.header {
+	background-color: #FFF;
+	background-image: url(../images/banner-footer.jpg);	
+}
+
+.sidebar1 {
+	float: left;
+	width: 690px;
+	background: #FFF;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}
+.content {
+	width: 300px;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+/* ~~ El pie de página ~~ */
+.footer {
+	position: relative;/* esto da a IE6 hasLayout para borrar correctamente */
+	clear: both; /* esta propiedad de borrado fuerza a .container a conocer dónde terminan las columnas y a contenerlas */
+	text-align: center;
+	font-weight: bold;
+	background-color: #003;
+	padding-top: 10px;
+	padding-right: 0;
+	padding-bottom: 10px;
+	padding-left: 0;
+	color: #FFF;
+	background-image: url(../images/banner-footer.jpg);
+}
+
+/* ~~ clases float/clear varias ~~ */
+.fltrt {  /* esta clase puede utilizarse para que un elemento flote en la parte derecha de la página. El elemento flotante debe preceder al elemento junto al que debe aparecer en la página. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* esta clase puede utilizarse para que un elemento flote en la parte izquierda de la página. El elemento flotante debe preceder al elemento junto al que debe aparecer en la página. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* esta clase puede situarse en una <br /> o div vacía como elemento final tras la última div flotante (dentro de #container) si #footer se elimina o se saca fuera de #container */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+.fr{
+	float: right;
+}
+.fl, .votar{
+	float: left;
+}
+.cf{
+	clear: both;
+}
+.wrap{
+	padding: 25px;
+	margin: 0 auto;
+	width: 385px;
+	background: #F3F3F3;
+	border-radius: 4px;
+	margin-top: 20px;
+	border: 1px solid #E0E0E0;
+}
+h1{
+	margin-bottom: 5px;
+	font-size: 20px;
+	border-bottom: 1px solid #DDD;*/
+	padding-bottom: 10px;
+	text-align: center;
+	font-family: 'Dosis', sans-serif;
+	font-size: 20px;
+}
+form > div{
+	margin-bottom: 10px;
+}
+form .titulo{
+	margin-right: 20px;
+}
+form label{
+	display: block;
+}
+form input[type='text'], select{
+	border: 1px solid #E0E0E0;
+	padding: 6px;
+	resize: none;
+}
+form input[type="submit"]{
+	padding: 8px 16px;
+	border: 0;
+	display: block;
+	font-weight: bold;
+	color: white;
+	border-radius: 6px;
+	background-color: #09F;
+	border-color:#000;
+}
+form input[type="submit"]:hover{
+	background-color: #999;
+	border-color:#03F;
+	cursor: pointer;
+}
+ul.votacion{
+	margin-bottom: 5px;
+	list-style: none;
+}
+.votacion li{
+	padding: 8px;
+	background: #FCFCFC;
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+.votacion li:hover{
+	background: white;
+}
+.votacion li a{
+	color: gray;
+	font-weight: bold;
+	font-size: 16px;
+}
+.votacion li a:hover{
+	color: black;
+}
+.votacion li span{
+	margin-left: 10px;
+}
+.votacion .fl{
+	margin-bottom: 5px;
+}
+.volver{
+	display: block;
+	padding-top: 15px;
+	clear: both;
+	text-align:center;
+}
+.resultado{
+	float: left;
+	margin-left: 10px;
+	margin-top: 7px;
+	color: black;
+}

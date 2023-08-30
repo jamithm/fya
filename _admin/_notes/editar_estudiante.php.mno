@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Consulta_Aescolares" value="name:id;datatype:int,name:denominacion;datatype:string,name:estatus;datatype:int" />
+	<infoitem key="UD_Consulta_Grados" value="name:id;datatype:int,name:denominacion;datatype:string" />
+	<infoitem key="UD_Consulta_Especialidades" value="name:id;datatype:int,name:denominacion;datatype:string" />
+	<infoitem key="UD_Consulta_Empresas" value="name:id;datatype:int,name:razon_social;datatype:string,name:contacto;datatype:string,name:direccion;datatype:string,name:telefono;datatype:string" />
+	<infoitem key="UD_Recordset1" value="name:id;datatype:int,name:cedula;datatype:int,name:apellidos;datatype:string,name:nombres;datatype:string,name:id_ano;datatype:int,name:id_grado;datatype:int,name:id_especialidad;datatype:int,name:id_empresa;datatype:int,name:fecha_inicio;datatype:date,name:fecha_culminacion;datatype:date,name:estatus;datatype:string" />
+	<infoitem key="UD_Consulta_Estudiante" value="name:id;datatype:int,name:cedula;datatype:int,name:apellidos;datatype:string,name:nombres;datatype:string,name:id_ano;datatype:int,name:id_grado;datatype:int,name:id_especialidad;datatype:int,name:id_empresa;datatype:int,name:fecha_inicio;datatype:date,name:fecha_culminacion;datatype:date,name:estatus;datatype:string" />
+</info>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Datos_Estudiantes" value="name:cedula;datatype:int,name:estudiante;datatype:string,name:aes;datatype:string,name:gra;datatype:string,name:esp;datatype:string" />
+	<infoitem key="UD_Datos_Listado" value="name:grado;datatype:string,name:especialidad;datatype:string" />
+	<infoitem key="UD_Recordset1" value="name:id;datatype:int,name:cedula;datatype:int,name:estudiante;datatype:string,name:aes;datatype:string,name:gra;datatype:string,name:esp;datatype:string" />
+</info>

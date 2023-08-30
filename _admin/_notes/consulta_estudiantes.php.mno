@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Consulta_Estudiantes" value="name:id;datatype:int,name:cedula;datatype:int,name:estudiante;datatype:string,name:grado;datatype:string,name:especialidad;datatype:string,name:razon_social;datatype:string,name:fecha_inicio;datatype:date,name:fecha_culminacion;datatype:date" />
+</info>

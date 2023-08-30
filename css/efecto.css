@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color: #FFF;
+	background-image: url(../images/fondo_capa.jpg);
+	background-size: 100vw 100vh;
+	background-attachment:fixed;	
+	color:#F00;
+}
+
+form{
+	margin:auto;
+	width:500%;
+	max-width:350px;
+	background:rgba(0,0,0,0.7);
+	padding:10px;
+	border:1px solid rgba(1,1,1,1);
+	border-radius:20px;
+}
+
+a:link {
+	color:#C03;
+	text-decoration: underline; /* a no ser que aplique estilos a los vínculos para que tengan un aspecto muy exclusivo, es recomendable proporcionar subrayados para facilitar una identificación visual rápida */
+}
+a:visited {
+	color: #C03;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* este grupo de selectores proporcionará a un usuario que navegue mediante el teclado la misma experiencia de hover (paso por encima) que experimenta un usuario que emplea un ratón. */
+	text-decoration: none;
+	color: #C03;
+	font-weight: bold;
+}
+	
+.color{
+	color: #F00;		
+}

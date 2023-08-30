@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="MM_Session_Count" value="2" />
+	<infoitem key="MM_Session1" value="MM_IdAescolar" />
+	<infoitem key="MM_Session2" value="MM_IdGrado" />
+	<infoitem key="PageAccessControl" value="0,1,2,3,4" />
+	<infoitem key="PageAccessControlMethod" value="useAccessList" />
+</info>

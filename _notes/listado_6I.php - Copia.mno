@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Consulta4I" value="name:cedula;datatype:int,name:estudiante;datatype:string,name:empresa;datatype:string" />
+	<infoitem key="UD_Consulta_6I" value="name:cedula;datatype:int,name:estudiante;datatype:string,name:empresa;datatype:string" />
+</info>
